@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Launcher: runs ytgrab.py inside this folder's virtualenv (works via symlink too).
+DIR="$(cd "$(dirname "$(readlink -f "$0")")" && pwd)"
+exec "$DIR/.venv/bin/python" "$DIR/ytgrab.py" "$@"

@@ -1,0 +1,18 @@
+# One link per line. Blank lines and lines starting with # are ignored.
+# Run:  ./ytgrab -f links.example.txt -n 5 -o ~/transcripts
+# (-n = how many videos from each channel / playlist / search)
+
+# a single video
+https://www.youtube.com/watch?v=jNQXAC9IVRw
+
+# a channel (newest uploads)
+https://www.youtube.com/@TED
+
+# a playlist
+https://www.youtube.com/playlist?list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI
+
+# a YouTube search: copy the URL from your browser's address bar...
+https://www.youtube.com/results?search_query=funny+cat+videos
+
+# ...or just type the words
+search: how do airplanes fly

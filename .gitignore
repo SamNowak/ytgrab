@@ -1,0 +1,11 @@
+# virtualenv (created by install.sh)
+.venv/
+__pycache__/
+*.pyc
+
+# grabbed output, if saved inside the repo folder
+yt_transcripts/
+
+# your own link lists and cookies (keep links.example.txt)
+links.txt
+*cookies*.txt
